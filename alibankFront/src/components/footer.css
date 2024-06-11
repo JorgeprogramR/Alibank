@@ -1,0 +1,73 @@
+.f1{
+    
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #242424;
+    color: white;
+    height: 250px;
+    
+}
+
+.f2{
+    padding-top: 5px;
+}
+
+.wpLogo{
+    margin: 20px 0 0 10px;
+    width: 50px;
+    transition: all .5s;
+}
+
+.wpLogo:hover{
+    filter: drop-shadow( 0px 0px 10px #1cc42a);
+}
+
+.c2{
+    margin-top: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.c2 p{
+    padding-top: 13px;
+    font-size: 14px;
+}
+.c5{
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+    margin-right: 20px;
+    cursor: default;
+}
+
+.c5 h3{
+    margin: 50px 0 50px 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+.c5 p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.redes{
+    width: 35px;
+    padding: 15px 5px 0 5px;
+    transition: all .5s;
+}
+
+.fb:hover{
+    filter: drop-shadow(0 0 10px aqua);
+}
+
+.in:hover{
+    filter: drop-shadow(0 0 10px #f831de);
+}
+
+.x:hover{
+    filter: drop-shadow(0 0 10px white);
+}

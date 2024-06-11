@@ -1,0 +1,20 @@
+.container8{
+    display: grid;
+    grid-template-columns:110px 1fr 110px;
+    grid-template-rows:180px 1fr 220px ;
+}
+
+.container9{
+    max-width:23rem;
+    width: 100%;
+    padding: 50px;
+    border-radius:  1rem;
+    background-color: #d8d6d6;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+}
+
+.add-count2{
+    margin-top: 30px;
+}

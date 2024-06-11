@@ -1,0 +1,19 @@
+.containerSet3{
+    max-width:28rem;
+    max-height: 22rem;
+    width: 100%;
+    padding: 50px;
+    border-radius:  1rem;
+    background-color: #d8d6d6;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.newName{
+    display: block;
+    width: 150px;
+    color: goldenrod;
+    border-bottom: 1px solid gray;
+}

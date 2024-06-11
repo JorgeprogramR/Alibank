@@ -1,0 +1,45 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:110px 1fr 110px;
+    grid-template-rows:160px 1fr 160px ;
+}
+
+.contenedor2{
+    max-width:28rem;
+    width: 100%;
+    padding: 50px;
+    border-radius:  1rem;
+    background-color: #d8d6d6;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+}
+
+.cabeza{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+    cursor:default;
+}
+
+.parrafo{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #141414;
+    cursor:default;
+    
+}
+
+.parrafo2{
+    text-align: center;
+    color: #383838;
+    cursor:default;
+}
+
+.logo{
+    background: none;
+    width: 100px;
+    filter: drop-shadow(0 0 10px #818181);
+}

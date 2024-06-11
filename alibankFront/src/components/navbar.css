@@ -1,0 +1,55 @@
+
+
+.navegador{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content:flex-end;  
+    padding: 15px 0 0 0 ;
+    box-shadow: 0 0 10px #bebebe ;
+    padding: 5px;
+    
+}
+
+.enlaces{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 15px 5px 15px;
+    transition: all .3s;
+}
+
+.enlaces a:hover{
+    background: #d8d6d6;
+    box-shadow: 0 3px 5px gray;
+}
+
+.firstName{
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 0 0 10px gray;
+}
+
+.welcome{
+    font-weight: bold;
+    text-shadow: 0 0 10px goldenrod;
+    text-align: center;
+    cursor:default;
+}
+
+.defaultCursor{
+    cursor: default;
+}
